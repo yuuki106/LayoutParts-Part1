@@ -1,1 +1,35 @@
 @charset "UTF-8";
+.cell--table{
+  font-size: 18px;
+}
+table,td,th{
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+  table-layout: fixed;
+}
+table{
+  width: 100%;
+}
+thead{
+  background-color: #319c4a;
+  line-height: 26px;
+  padding: 10px;
+}
+tbody td:nth-child(1){
+  background-color: #319c4a;
+  line-height: 26px;
+
+}
+tbody > tr:nth-child(odd){
+  background-color: #d5ffc7;
+  line-height: 22px;
+}
+tbody > tr:nth-child(even){
+  background-color: #bcbcbc;
+  line-height: 22px;
+}
+tbody > tr:last-child{
+  border-top: 1px double rgb(255, 255, 255);
+
+}

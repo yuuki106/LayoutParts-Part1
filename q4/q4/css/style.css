@@ -1,1 +1,42 @@
 @charset "UTF-8";
+
+.first,
+.second{
+  display: flex;
+  text-align: center;
+}
+ul>li{
+  padding: 20px;
+}
+.box1{
+  width: 300px;
+  background-color: #ff7b7b;
+}
+.box2{
+  background-color: #7b86ff;
+  flex-grow: 1;
+}
+.box3{
+  background-color: #fff27b;
+  width: 300px;
+}
+
+.second{
+  margin-top: 50px;
+}
+.box4{
+  flex-grow: 1;
+  background-color: #7bff91;
+}
+.box5{
+  width: 400px;
+  background-color: #ff7be2;
+}
+.box6{
+  background-color: #ffc67b;
+  width: 400px;
+}
+.box7{
+  background-color: #7bf2ff;
+  flex-grow: 1;
+}
